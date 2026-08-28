@@ -33,6 +33,11 @@
         <activity android:name=".CalendarActivity" android:exported="false" />
         <activity android:name=".ReminderActivity" android:exported="false" />
         <receiver android:name=".ReminderReceiver" android:exported="false" />
+        <activity android:name=".SystemMonitorActivity" android:exported="false" />
+        <activity android:name=".BatteryMonitorActivity" android:exported="false" />
+        <activity android:name=".ExpenseTrackerActivity" android:exported="false" />
+        <activity android:name=".InventoryActivity" android:exported="false" />
+        <activity android:name=".InvoiceActivity" android:exported="false" />
 
     </application>
 </manifest>

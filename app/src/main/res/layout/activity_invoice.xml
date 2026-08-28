@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText android:id="@+id/clientName" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Client name" android:textColor="@color/text_light" android:textColorHint="#777777" />
+
+        <EditText android:id="@+id/itemsInput" android:layout_width="match_parent" android:layout_height="120dp"
+            android:hint="One item per line, e.g.:&#10;Web design - 200&#10;Hosting - 50"
+            android:gravity="top" android:inputType="textMultiLine"
+            android:textColor="@color/text_light" android:textColorHint="#777777"
+            android:layout_marginTop="8dp" />
+
+        <Button android:id="@+id/btnGenerate" style="@style/ToolButton" android:text="Generate Invoice" android:layout_marginTop="12dp" />
+
+        <TextView android:id="@+id/invoicePreview" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="@color/text_light" android:fontFamily="monospace" android:padding="12dp"
+            android:background="#1A1A1A" android:layout_marginTop="16dp" android:textIsSelectable="true" />
+
+        <Button android:id="@+id/btnShare" style="@style/ToolButton" android:text="Share Invoice" android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

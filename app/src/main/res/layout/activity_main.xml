@@ -27,62 +27,35 @@
             android:textSize="13sp"
             android:layout_marginBottom="20dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="🛠️ UTILITIES"
-            android:textColor="@color/purple_primary"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🛠️ UTILITIES" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnCalculator" style="@style/ToolButton" android:text="🧮  Calculator" />
+        <Button android:id="@+id/btnUnitConverter" style="@style/ToolButton" android:text="📐  Unit Converter" />
+        <Button android:id="@+id/btnStopwatch" style="@style/ToolButton" android:text="⏱️  Stopwatch &amp; Timer" />
 
-        <Button
-            android:id="@+id/btnCalculator"
-            style="@style/ToolButton"
-            android:text="🧮  Calculator" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🔗 INTERNET &amp; SHARING" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnQrCode" style="@style/ToolButton" android:text="🔗  QR Code Generator/Scanner" />
 
-        <Button
-            android:id="@+id/btnUnitConverter"
-            style="@style/ToolButton"
-            android:text="📐  Unit Converter" />
-
-        <Button
-            android:id="@+id/btnStopwatch"
-            style="@style/ToolButton"
-            android:text="⏱️  Stopwatch &amp; Timer" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="🔗 INTERNET &amp; SHARING"
-            android:textColor="@color/purple_primary"
-            android:textStyle="bold"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="8dp" />
-
-        <Button
-            android:id="@+id/btnQrCode"
-            style="@style/ToolButton"
-            android:text="🔗  QR Code Generator/Scanner" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="📝 PRODUCTIVITY"
-            android:textColor="@color/purple_primary"
-            android:textStyle="bold"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="8dp" />
-
-        <Button
-            android:id="@+id/btnNotes"
-            style="@style/ToolButton"
-            android:text="📝  Notes Manager" />
-
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📝 PRODUCTIVITY" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnNotes" style="@style/ToolButton" android:text="📝  Notes Manager" />
         <Button android:id="@+id/btnTasks" style="@style/ToolButton" android:text="✅  Task Manager" />
         <Button android:id="@+id/btnReminders" style="@style/ToolButton" android:text="⏰  Reminder Manager" />
         <Button android:id="@+id/btnCalendar" style="@style/ToolButton" android:text="📅  Calendar Manager" />
         <Button android:id="@+id/btnClipboard" style="@style/ToolButton" android:text="📋  Clipboard Manager" />
         <Button android:id="@+id/btnTextUtils" style="@style/ToolButton" android:text="🔤  Text Utilities" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📱 DEVICE" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnSystemMonitor" style="@style/ToolButton" android:text="📱  Phone System Monitor" />
+        <Button android:id="@+id/btnBatteryMonitor" style="@style/ToolButton" android:text="🔋  Battery Monitor" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="💰 FINANCE &amp; BUSINESS" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnExpenseTracker" style="@style/ToolButton" android:text="💰  Expense Tracker" />
+        <Button android:id="@+id/btnInventory" style="@style/ToolButton" android:text="📦  Inventory Manager" />
+        <Button android:id="@+id/btnInvoice" style="@style/ToolButton" android:text="🧾  Invoice Generator" />
 
         <TextView
             android:layout_width="wrap_content"

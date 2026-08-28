@@ -39,5 +39,20 @@ class MainActivity : AppCompatActivity() {
         findViewById<android.widget.Button>(R.id.btnTextUtils).setOnClickListener {
             startActivity(Intent(this, TextUtilsActivity::class.java))
         }
+        findViewById<android.widget.Button>(R.id.btnSystemMonitor).setOnClickListener {
+            startActivity(Intent(this, SystemMonitorActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnBatteryMonitor).setOnClickListener {
+            startActivity(Intent(this, BatteryMonitorActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnExpenseTracker).setOnClickListener {
+            startActivity(Intent(this, ExpenseTrackerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnInventory).setOnClickListener {
+            startActivity(Intent(this, InventoryActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnInvoice).setOnClickListener {
+            startActivity(Intent(this, InvoiceActivity::class.java))
+        }
     }
 }
