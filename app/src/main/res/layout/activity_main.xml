@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tommy Arena"
+            android:textColor="@color/silver"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="59 tools. Growing every batch."
+            android:textColor="#999999"
+            android:textSize="13sp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛠️ UTILITIES"
+            android:textColor="@color/purple_primary"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnCalculator"
+            style="@style/ToolButton"
+            android:text="🧮  Calculator" />
+
+        <Button
+            android:id="@+id/btnUnitConverter"
+            style="@style/ToolButton"
+            android:text="📐  Unit Converter" />
+
+        <Button
+            android:id="@+id/btnStopwatch"
+            style="@style/ToolButton"
+            android:text="⏱️  Stopwatch &amp; Timer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔗 INTERNET &amp; SHARING"
+            android:textColor="@color/purple_primary"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnQrCode"
+            style="@style/ToolButton"
+            android:text="🔗  QR Code Generator/Scanner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📝 PRODUCTIVITY"
+            android:textColor="@color/purple_primary"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnNotes"
+            style="@style/ToolButton"
+            android:text="📝  Notes Manager" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More tools land here as we build each batch."
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

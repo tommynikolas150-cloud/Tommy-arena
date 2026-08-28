@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputExpression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g. 12*(3+4)"
+        android:textColor="@color/text_light"
+        android:textColorHint="#777777"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        style="@style/ToolButton"
+        android:text="Calculate"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_primary"
+        android:textSize="26sp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
