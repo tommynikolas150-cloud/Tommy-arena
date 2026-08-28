@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/textInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="top"
+            android:hint="Paste or type text here..."
+            android:textColor="@color/text_light"
+            android:textColorHint="#777777"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/statsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_primary"
+            android:layout_marginTop="8dp" />
+
+        <Button android:id="@+id/btnUpper" style="@style/ToolButton" android:text="UPPERCASE" android:layout_marginTop="16dp" />
+        <Button android:id="@+id/btnLower" style="@style/ToolButton" android:text="lowercase" />
+        <Button android:id="@+id/btnTitle" style="@style/ToolButton" android:text="Title Case" />
+        <Button android:id="@+id/btnReverse" style="@style/ToolButton" android:text="esreveR" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result:"
+            android:textColor="@color/silver"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_light"
+            android:textIsSelectable="true" />
+
+    </LinearLayout>
+</ScrollView>

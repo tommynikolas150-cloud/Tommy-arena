@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current clipboard:"
+        android:textColor="@color/silver" />
+
+    <TextView
+        android:id="@+id/currentClipText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_light"
+        android:padding="8dp"
+        android:background="#1A1A1A"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnSaveClip"
+        style="@style/ToolButton"
+        android:text="Save current to history" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History (tap to copy, long-press to delete):"
+        android:textColor="@color/silver"
+        android:layout_marginTop="16dp" />
+
+    <ListView
+        android:id="@+id/clipHistoryList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:divider="#333333"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

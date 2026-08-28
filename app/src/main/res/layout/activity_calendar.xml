@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/eventInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Event title..."
+            android:textColor="@color/text_light"
+            android:textColorHint="#777777" />
+
+        <Button
+            android:id="@+id/btnPickDate"
+            style="@style/ToolButton"
+            android:layout_width="wrap_content"
+            android:text="Pick Date" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddEvent"
+        style="@style/ToolButton"
+        android:text="Add Event"
+        android:layout_marginTop="8dp" />
+
+    <ListView
+        android:id="@+id/eventList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:divider="#333333"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

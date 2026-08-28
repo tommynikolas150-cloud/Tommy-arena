@@ -78,6 +78,12 @@
             style="@style/ToolButton"
             android:text="📝  Notes Manager" />
 
+        <Button android:id="@+id/btnTasks" style="@style/ToolButton" android:text="✅  Task Manager" />
+        <Button android:id="@+id/btnReminders" style="@style/ToolButton" android:text="⏰  Reminder Manager" />
+        <Button android:id="@+id/btnCalendar" style="@style/ToolButton" android:text="📅  Calendar Manager" />
+        <Button android:id="@+id/btnClipboard" style="@style/ToolButton" android:text="📋  Clipboard Manager" />
+        <Button android:id="@+id/btnTextUtils" style="@style/ToolButton" android:text="🔤  Text Utilities" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

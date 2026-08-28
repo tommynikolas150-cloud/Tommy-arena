@@ -24,5 +24,20 @@ class MainActivity : AppCompatActivity() {
         findViewById<android.widget.Button>(R.id.btnNotes).setOnClickListener {
             startActivity(Intent(this, NotesActivity::class.java))
         }
+        findViewById<android.widget.Button>(R.id.btnTasks).setOnClickListener {
+            startActivity(Intent(this, TaskManagerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnReminders).setOnClickListener {
+            startActivity(Intent(this, ReminderActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnCalendar).setOnClickListener {
+            startActivity(Intent(this, CalendarActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnClipboard).setOnClickListener {
+            startActivity(Intent(this, ClipboardActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnTextUtils).setOnClickListener {
+            startActivity(Intent(this, TextUtilsActivity::class.java))
+        }
     }
 }
