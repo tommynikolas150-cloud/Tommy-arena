@@ -1,0 +1,17 @@
+# Build outputs
+*.apk
+tommy-arena-debug-apk/
+build/
+app/build/
+.gradle/
+
+# Logs and debug dumps
+build-error*.txt
+
+# Misc stray files
+GitHub.com
+
+# Android Studio / IDE
+.idea/
+*.iml
+local.properties
