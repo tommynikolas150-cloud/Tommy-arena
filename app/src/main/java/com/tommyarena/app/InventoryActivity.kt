@@ -17,7 +17,7 @@ class InventoryActivity : AppCompatActivity() {
 
     private val prefsName = "tommy_arena_inventory"
     private val key = "items_json"
-    private data class Item(var name: String, var qty: Int)
+    data class Item(var name: String, var qty: Int)
     private val items = mutableListOf<Item>()
     private lateinit var adapter: InventoryAdapter
 
