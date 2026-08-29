@@ -47,26 +47,36 @@
         <Button android:id="@+id/btnCalendar" style="@style/ToolButton" android:text="📅  Calendar Manager" />
         <Button android:id="@+id/btnClipboard" style="@style/ToolButton" android:text="📋  Clipboard Manager" />
         <Button android:id="@+id/btnTextUtils" style="@style/ToolButton" android:text="🔤  Text Utilities" />
+        <Button android:id="@+id/btnEbookLibrary" style="@style/ToolButton" android:text="📚  E-book Library" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="📱 DEVICE" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
         <Button android:id="@+id/btnSystemMonitor" style="@style/ToolButton" android:text="📱  Phone System Monitor" />
         <Button android:id="@+id/btnBatteryMonitor" style="@style/ToolButton" android:text="🔋  Battery Monitor" />
+        <Button android:id="@+id/btnInstalledApps" style="@style/ToolButton" android:text="📲  Installed Apps" />
+        <Button android:id="@+id/btnNotificationManager" style="@style/ToolButton" android:text="🔔  Notification Manager" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="💰 FINANCE &amp; BUSINESS" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
         <Button android:id="@+id/btnExpenseTracker" style="@style/ToolButton" android:text="💰  Expense Tracker" />
+        <Button android:id="@+id/btnFinanceManager" style="@style/ToolButton" android:text="📊  Finance Manager" />
         <Button android:id="@+id/btnInventory" style="@style/ToolButton" android:text="📦  Inventory Manager" />
         <Button android:id="@+id/btnInvoice" style="@style/ToolButton" android:text="🧾  Invoice Generator" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="🧑‍💻 DEVELOPER" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
         <Button android:id="@+id/btnMarkdown" style="@style/ToolButton" android:text="📄  Markdown Editor" />
+        <Button android:id="@+id/btnApiTester" style="@style/ToolButton" android:text="🔌  API Tester" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="🌐 NETWORK" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
         <Button android:id="@+id/btnWebsiteChecker" style="@style/ToolButton" android:text="🌐  Website Checker" />
         <Button android:id="@+id/btnSpeedTest" style="@style/ToolButton" android:text="📶  Internet Speed Tester" />
+        <Button android:id="@+id/btnNetworkMonitor" style="@style/ToolButton" android:text="📡  Network Monitor" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📄 DOCUMENTS &amp; MEDIA" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnDataAnalyzer" style="@style/ToolButton" android:text="📈  Data Analyzer" />
 
         <TextView
             android:layout_width="wrap_content"

@@ -69,5 +69,26 @@ class MainActivity : AppCompatActivity() {
         findViewById<android.widget.Button>(R.id.btnSpeedTest).setOnClickListener {
             startActivity(Intent(this, SpeedTestActivity::class.java))
         }
+        findViewById<android.widget.Button>(R.id.btnEbookLibrary).setOnClickListener {
+            startActivity(Intent(this, EbookLibraryActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnFinanceManager).setOnClickListener {
+            startActivity(Intent(this, FinanceManagerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnDataAnalyzer).setOnClickListener {
+            startActivity(Intent(this, DataAnalyzerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnApiTester).setOnClickListener {
+            startActivity(Intent(this, ApiTesterActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnInstalledApps).setOnClickListener {
+            startActivity(Intent(this, InstalledAppsActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnNetworkMonitor).setOnClickListener {
+            startActivity(Intent(this, NetworkMonitorActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnNotificationManager).setOnClickListener {
+            startActivity(Intent(this, NotificationManagerActivity::class.java))
+        }
     }
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp" android:gravity="center">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Manage which apps can send you notifications, and control Tommy Arena's own reminder notifications."
+        android:textColor="@color/text_light" android:textSize="15sp" android:gravity="center" android:layout_marginBottom="24dp" />
+
+    <Button android:id="@+id/btnOpenAppSettings" style="@style/ToolButton" android:text="Open Tommy Arena Notification Settings" />
+    <Button android:id="@+id/btnOpenAllSettings" style="@style/ToolButton" android:text="Open All Notification Settings" android:layout_marginTop="12dp" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/background_dark">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+
+        <Spinner android:id="@+id/methodSpinner" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/apiUrlInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="https://api.example.com/endpoint" android:inputType="textUri" android:textColor="@color/text_light" android:textColorHint="#777777" android:layout_marginTop="8dp" />
+        <EditText android:id="@+id/apiBodyInput" android:layout_width="match_parent" android:layout_height="100dp"
+            android:hint="Request body (for POST/PUT, JSON)" android:gravity="top" android:inputType="textMultiLine"
+            android:textColor="@color/text_light" android:textColorHint="#777777" android:layout_marginTop="8dp" android:fontFamily="monospace" />
+        <Button android:id="@+id/btnSendRequest" style="@style/ToolButton" android:text="Send Request" android:layout_marginTop="12dp" />
+        <TextView android:id="@+id/apiResponseText" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="@color/text_light" android:fontFamily="monospace" android:textIsSelectable="true"
+            android:background="#1A1A1A" android:padding="12dp" android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
