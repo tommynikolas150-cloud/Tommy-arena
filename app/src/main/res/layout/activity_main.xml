@@ -36,6 +36,8 @@
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="🔗 INTERNET &amp; SHARING" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
         <Button android:id="@+id/btnQrCode" style="@style/ToolButton" android:text="🔗  QR Code Generator/Scanner" />
+        <Button android:id="@+id/btnLinkManager" style="@style/ToolButton" android:text="🔗  Link Manager" />
+        <Button android:id="@+id/btnUrlShortener" style="@style/ToolButton" android:text="✂️  URL Shortener" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="📝 PRODUCTIVITY" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
@@ -56,6 +58,15 @@
         <Button android:id="@+id/btnExpenseTracker" style="@style/ToolButton" android:text="💰  Expense Tracker" />
         <Button android:id="@+id/btnInventory" style="@style/ToolButton" android:text="📦  Inventory Manager" />
         <Button android:id="@+id/btnInvoice" style="@style/ToolButton" android:text="🧾  Invoice Generator" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🧑‍💻 DEVELOPER" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnMarkdown" style="@style/ToolButton" android:text="📄  Markdown Editor" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🌐 NETWORK" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnWebsiteChecker" style="@style/ToolButton" android:text="🌐  Website Checker" />
+        <Button android:id="@+id/btnSpeedTest" style="@style/ToolButton" android:text="📶  Internet Speed Tester" />
 
         <TextView
             android:layout_width="wrap_content"

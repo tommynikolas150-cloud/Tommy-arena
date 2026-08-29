@@ -54,5 +54,20 @@ class MainActivity : AppCompatActivity() {
         findViewById<android.widget.Button>(R.id.btnInvoice).setOnClickListener {
             startActivity(Intent(this, InvoiceActivity::class.java))
         }
+        findViewById<android.widget.Button>(R.id.btnMarkdown).setOnClickListener {
+            startActivity(Intent(this, MarkdownActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnLinkManager).setOnClickListener {
+            startActivity(Intent(this, LinkManagerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnUrlShortener).setOnClickListener {
+            startActivity(Intent(this, UrlShortenerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnWebsiteChecker).setOnClickListener {
+            startActivity(Intent(this, WebsiteCheckerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnSpeedTest).setOnClickListener {
+            startActivity(Intent(this, SpeedTestActivity::class.java))
+        }
     }
 }

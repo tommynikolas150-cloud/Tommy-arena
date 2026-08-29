@@ -4,6 +4,8 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -38,6 +40,11 @@
         <activity android:name=".ExpenseTrackerActivity" android:exported="false" />
         <activity android:name=".InventoryActivity" android:exported="false" />
         <activity android:name=".InvoiceActivity" android:exported="false" />
+        <activity android:name=".MarkdownActivity" android:exported="false" />
+        <activity android:name=".LinkManagerActivity" android:exported="false" />
+        <activity android:name=".UrlShortenerActivity" android:exported="false" />
+        <activity android:name=".WebsiteCheckerActivity" android:exported="false" />
+        <activity android:name=".SpeedTestActivity" android:exported="false" />
 
     </application>
 </manifest>

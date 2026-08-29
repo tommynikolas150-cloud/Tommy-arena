@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/linkTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title (optional)"
+        android:textColor="@color/text_light"
+        android:textColorHint="#777777" />
+
+    <EditText
+        android:id="@+id/linkUrlInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="https://example.com"
+        android:inputType="textUri"
+        android:textColor="@color/text_light"
+        android:textColorHint="#777777"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSaveLink"
+        style="@style/ToolButton"
+        android:text="Save Link"
+        android:layout_marginTop="8dp" />
+
+    <ListView
+        android:id="@+id/linkList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:divider="#333333"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
