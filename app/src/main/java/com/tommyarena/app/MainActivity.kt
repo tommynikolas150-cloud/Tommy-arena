@@ -90,5 +90,26 @@ class MainActivity : AppCompatActivity() {
         findViewById<android.widget.Button>(R.id.btnNotificationManager).setOnClickListener {
             startActivity(Intent(this, NotificationManagerActivity::class.java))
         }
+        findViewById<android.widget.Button>(R.id.btnFileManager).setOnClickListener {
+            startActivity(Intent(this, FileManagerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnBackupManager).setOnClickListener {
+            startActivity(Intent(this, BackupManagerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnFileEncryption).setOnClickListener {
+            startActivity(Intent(this, FileEncryptionActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnFileCompressor).setOnClickListener {
+            startActivity(Intent(this, FileCompressorActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnDownloadManager).setOnClickListener {
+            startActivity(Intent(this, DownloadManagerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnStorageCleaner).setOnClickListener {
+            startActivity(Intent(this, StorageCleanerActivity::class.java))
+        }
+        findViewById<android.widget.Button>(R.id.btnWebServer).setOnClickListener {
+            startActivity(Intent(this, WebServerActivity::class.java))
+        }
     }
 }

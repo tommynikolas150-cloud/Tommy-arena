@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <Button android:id="@+id/btnPickFolder" style="@style/ToolButton" android:text="Choose Folder to Browse" />
+    <EditText android:id="@+id/searchInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Search files..." android:textColor="@color/text_light" android:textColorHint="#777777" android:layout_marginTop="8dp" />
+    <TextView android:id="@+id/currentPathText" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="@color/silver" android:textSize="12sp" android:layout_marginTop="8dp" />
+    <ListView android:id="@+id/fileList" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_marginTop="8dp" android:divider="#333333" android:dividerHeight="1dp" />
+</LinearLayout>

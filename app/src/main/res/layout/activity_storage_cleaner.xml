@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp" android:gravity="center">
+
+    <TextView android:id="@+id/cacheSizeText" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="@color/purple_primary" android:textSize="20sp" android:layout_marginBottom="20dp" />
+
+    <Button android:id="@+id/btnClearAppCache" style="@style/ToolButton" android:text="Clear Tommy Arena's Cache" />
+    <Button android:id="@+id/btnOpenStorageSettings" style="@style/ToolButton" android:text="Open Device Storage Settings" android:layout_marginTop="12dp" />
+
+</LinearLayout>

@@ -55,6 +55,19 @@
         <Button android:id="@+id/btnBatteryMonitor" style="@style/ToolButton" android:text="🔋  Battery Monitor" />
         <Button android:id="@+id/btnInstalledApps" style="@style/ToolButton" android:text="📲  Installed Apps" />
         <Button android:id="@+id/btnNotificationManager" style="@style/ToolButton" android:text="🔔  Notification Manager" />
+        <Button android:id="@+id/btnStorageCleaner" style="@style/ToolButton" android:text="🧹  Storage Cleaner" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🖥️ TERMUX &amp; SERVER" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnWebServer" style="@style/ToolButton" android:text="🖥️  Web Server &amp; Monitor" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📂 FILES &amp; STORAGE" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnFileManager" style="@style/ToolButton" android:text="📂  File Manager &amp; Search" />
+        <Button android:id="@+id/btnBackupManager" style="@style/ToolButton" android:text="💾  Backup Manager" />
+        <Button android:id="@+id/btnFileEncryption" style="@style/ToolButton" android:text="🔐  File Encryption" />
+        <Button android:id="@+id/btnFileCompressor" style="@style/ToolButton" android:text="🗜️  File Compressor" />
+        <Button android:id="@+id/btnDownloadManager" style="@style/ToolButton" android:text="⬇️  Download Manager" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="💰 FINANCE &amp; BUSINESS" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />

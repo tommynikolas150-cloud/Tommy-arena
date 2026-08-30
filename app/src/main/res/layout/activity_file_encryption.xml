@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/background_dark">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+
+        <EditText android:id="@+id/encryptInput" android:layout_width="match_parent" android:layout_height="120dp"
+            android:hint="Text to encrypt/decrypt" android:gravity="top" android:inputType="textMultiLine"
+            android:textColor="@color/text_light" android:textColorHint="#777777" />
+        <EditText android:id="@+id/passwordInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Password" android:inputType="textPassword" android:textColor="@color/text_light" android:textColorHint="#777777" android:layout_marginTop="8dp" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="8dp">
+            <Button android:id="@+id/btnEncrypt" style="@style/ToolButton" android:layout_width="0dp" android:layout_weight="1" android:text="Encrypt" />
+            <Button android:id="@+id/btnDecrypt" style="@style/ToolButton" android:layout_width="0dp" android:layout_weight="1" android:text="Decrypt" />
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Result:" android:textColor="@color/silver" android:layout_marginTop="16dp" />
+        <TextView android:id="@+id/encryptResult" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="@color/text_light" android:textIsSelectable="true" android:background="#1A1A1A" android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>
