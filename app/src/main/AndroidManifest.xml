@@ -10,6 +10,10 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" tools:ignore="QueryAllPackagesPermission" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 
     <application
         android:allowBackup="true"
@@ -17,6 +21,7 @@
         android:theme="@style/Theme.TommyArena"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:requestLegacyExternalStorage="true"
         android:supportsRtl="true">
 
         <activity
@@ -63,6 +68,19 @@
         <activity android:name=".DownloadManagerActivity" android:exported="false" />
         <activity android:name=".StorageCleanerActivity" android:exported="false" />
         <activity android:name=".WebServerActivity" android:exported="false" />
+        <activity android:name=".AiAssistantActivity" android:exported="false" />
+        <activity android:name=".KnowledgeBaseActivity" android:exported="false" />
+        <activity android:name=".CodeEditorActivity" android:exported="false" />
+        <activity android:name=".SqliteManagerActivity" android:exported="false" />
+        <activity android:name=".ApiKeyManagerActivity" android:exported="false" />
+        <activity android:name=".DnsLookupActivity" android:exported="false" />
+        <activity android:name=".PortScannerActivity" android:exported="false" />
+        <activity android:name=".PdfViewerActivity" android:exported="false" />
+        <activity android:name=".ImageToolsActivity" android:exported="false" />
+        <activity android:name=".MusicManagerActivity" android:exported="false" />
+        <activity android:name=".VideoManagerActivity" android:exported="false" />
+        <activity android:name=".PhotoBackupActivity" android:exported="false" />
+        <activity android:name=".EmailAutomationActivity" android:exported="false" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

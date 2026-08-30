@@ -9,107 +9,52 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<android.widget.Button>(R.id.btnCalculator).setOnClickListener {
-            startActivity(Intent(this, CalculatorActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnUnitConverter).setOnClickListener {
-            startActivity(Intent(this, UnitConverterActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnStopwatch).setOnClickListener {
-            startActivity(Intent(this, StopwatchActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnQrCode).setOnClickListener {
-            startActivity(Intent(this, QrCodeActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnNotes).setOnClickListener {
-            startActivity(Intent(this, NotesActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnTasks).setOnClickListener {
-            startActivity(Intent(this, TaskManagerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnReminders).setOnClickListener {
-            startActivity(Intent(this, ReminderActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnCalendar).setOnClickListener {
-            startActivity(Intent(this, CalendarActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnClipboard).setOnClickListener {
-            startActivity(Intent(this, ClipboardActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnTextUtils).setOnClickListener {
-            startActivity(Intent(this, TextUtilsActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnSystemMonitor).setOnClickListener {
-            startActivity(Intent(this, SystemMonitorActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnBatteryMonitor).setOnClickListener {
-            startActivity(Intent(this, BatteryMonitorActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnExpenseTracker).setOnClickListener {
-            startActivity(Intent(this, ExpenseTrackerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnInventory).setOnClickListener {
-            startActivity(Intent(this, InventoryActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnInvoice).setOnClickListener {
-            startActivity(Intent(this, InvoiceActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnMarkdown).setOnClickListener {
-            startActivity(Intent(this, MarkdownActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnLinkManager).setOnClickListener {
-            startActivity(Intent(this, LinkManagerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnUrlShortener).setOnClickListener {
-            startActivity(Intent(this, UrlShortenerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnWebsiteChecker).setOnClickListener {
-            startActivity(Intent(this, WebsiteCheckerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnSpeedTest).setOnClickListener {
-            startActivity(Intent(this, SpeedTestActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnEbookLibrary).setOnClickListener {
-            startActivity(Intent(this, EbookLibraryActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnFinanceManager).setOnClickListener {
-            startActivity(Intent(this, FinanceManagerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnDataAnalyzer).setOnClickListener {
-            startActivity(Intent(this, DataAnalyzerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnApiTester).setOnClickListener {
-            startActivity(Intent(this, ApiTesterActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnInstalledApps).setOnClickListener {
-            startActivity(Intent(this, InstalledAppsActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnNetworkMonitor).setOnClickListener {
-            startActivity(Intent(this, NetworkMonitorActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnNotificationManager).setOnClickListener {
-            startActivity(Intent(this, NotificationManagerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnFileManager).setOnClickListener {
-            startActivity(Intent(this, FileManagerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnBackupManager).setOnClickListener {
-            startActivity(Intent(this, BackupManagerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnFileEncryption).setOnClickListener {
-            startActivity(Intent(this, FileEncryptionActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnFileCompressor).setOnClickListener {
-            startActivity(Intent(this, FileCompressorActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnDownloadManager).setOnClickListener {
-            startActivity(Intent(this, DownloadManagerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnStorageCleaner).setOnClickListener {
-            startActivity(Intent(this, StorageCleanerActivity::class.java))
-        }
-        findViewById<android.widget.Button>(R.id.btnWebServer).setOnClickListener {
-            startActivity(Intent(this, WebServerActivity::class.java))
-        }
+        findViewById<android.widget.Button>(R.id.btnCalculator).setOnClickListener { startActivity(Intent(this, CalculatorActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnUnitConverter).setOnClickListener { startActivity(Intent(this, UnitConverterActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnStopwatch).setOnClickListener { startActivity(Intent(this, StopwatchActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnQrCode).setOnClickListener { startActivity(Intent(this, QrCodeActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnNotes).setOnClickListener { startActivity(Intent(this, NotesActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnTasks).setOnClickListener { startActivity(Intent(this, TaskManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnReminders).setOnClickListener { startActivity(Intent(this, ReminderActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnCalendar).setOnClickListener { startActivity(Intent(this, CalendarActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnClipboard).setOnClickListener { startActivity(Intent(this, ClipboardActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnTextUtils).setOnClickListener { startActivity(Intent(this, TextUtilsActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnSystemMonitor).setOnClickListener { startActivity(Intent(this, SystemMonitorActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnBatteryMonitor).setOnClickListener { startActivity(Intent(this, BatteryMonitorActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnExpenseTracker).setOnClickListener { startActivity(Intent(this, ExpenseTrackerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnInventory).setOnClickListener { startActivity(Intent(this, InventoryActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnInvoice).setOnClickListener { startActivity(Intent(this, InvoiceActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnMarkdown).setOnClickListener { startActivity(Intent(this, MarkdownActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnLinkManager).setOnClickListener { startActivity(Intent(this, LinkManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnUrlShortener).setOnClickListener { startActivity(Intent(this, UrlShortenerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnWebsiteChecker).setOnClickListener { startActivity(Intent(this, WebsiteCheckerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnSpeedTest).setOnClickListener { startActivity(Intent(this, SpeedTestActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnEbookLibrary).setOnClickListener { startActivity(Intent(this, EbookLibraryActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnFinanceManager).setOnClickListener { startActivity(Intent(this, FinanceManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnDataAnalyzer).setOnClickListener { startActivity(Intent(this, DataAnalyzerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnApiTester).setOnClickListener { startActivity(Intent(this, ApiTesterActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnInstalledApps).setOnClickListener { startActivity(Intent(this, InstalledAppsActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnNetworkMonitor).setOnClickListener { startActivity(Intent(this, NetworkMonitorActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnNotificationManager).setOnClickListener { startActivity(Intent(this, NotificationManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnFileManager).setOnClickListener { startActivity(Intent(this, FileManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnBackupManager).setOnClickListener { startActivity(Intent(this, BackupManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnFileEncryption).setOnClickListener { startActivity(Intent(this, FileEncryptionActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnFileCompressor).setOnClickListener { startActivity(Intent(this, FileCompressorActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnDownloadManager).setOnClickListener { startActivity(Intent(this, DownloadManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnStorageCleaner).setOnClickListener { startActivity(Intent(this, StorageCleanerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnWebServer).setOnClickListener { startActivity(Intent(this, WebServerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnAiAssistant).setOnClickListener { startActivity(Intent(this, AiAssistantActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnKnowledgeBase).setOnClickListener { startActivity(Intent(this, KnowledgeBaseActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnCodeEditor).setOnClickListener { startActivity(Intent(this, CodeEditorActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnSqliteManager).setOnClickListener { startActivity(Intent(this, SqliteManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnApiKeyManager).setOnClickListener { startActivity(Intent(this, ApiKeyManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnDnsLookup).setOnClickListener { startActivity(Intent(this, DnsLookupActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnPortScanner).setOnClickListener { startActivity(Intent(this, PortScannerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnPdfViewer).setOnClickListener { startActivity(Intent(this, PdfViewerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnImageTools).setOnClickListener { startActivity(Intent(this, ImageToolsActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnMusicManager).setOnClickListener { startActivity(Intent(this, MusicManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnVideoManager).setOnClickListener { startActivity(Intent(this, VideoManagerActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnPhotoBackup).setOnClickListener { startActivity(Intent(this, PhotoBackupActivity::class.java)) }
+        findViewById<android.widget.Button>(R.id.btnEmailAutomation).setOnClickListener { startActivity(Intent(this, EmailAutomationActivity::class.java)) }
     }
 }

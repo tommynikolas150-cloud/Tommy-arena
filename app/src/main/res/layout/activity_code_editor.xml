@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/btnOpenFile" style="@style/ToolButton" android:layout_width="0dp" android:layout_weight="1" android:text="Open File" />
+        <Button android:id="@+id/btnSaveFile" style="@style/ToolButton" android:layout_width="0dp" android:layout_weight="1" android:text="Save" />
+    </LinearLayout>
+
+    <EditText android:id="@+id/codeEditorInput" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:gravity="top" android:inputType="textMultiLine" android:fontFamily="monospace"
+        android:textColor="@color/text_light" android:hint="Open a file to edit..." android:textColorHint="#777777" android:layout_marginTop="8dp" />
+</LinearLayout>

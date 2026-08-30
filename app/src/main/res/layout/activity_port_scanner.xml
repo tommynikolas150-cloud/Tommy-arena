@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <EditText android:id="@+id/scanHostInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Host or IP (e.g. 192.168.1.1)" android:textColor="@color/text_light" android:textColorHint="#777777" />
+    <Button android:id="@+id/btnScanPorts" style="@style/ToolButton" android:text="Scan Common Ports" android:layout_marginTop="12dp" />
+    <TextView android:id="@+id/portScanResult" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="@color/text_light" android:textIsSelectable="true" android:layout_marginTop="20dp" android:fontFamily="monospace" />
+</LinearLayout>

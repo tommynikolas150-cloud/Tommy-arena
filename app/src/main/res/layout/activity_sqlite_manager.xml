@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Runs against a local demo database stored in the app." android:textColor="@color/silver" android:textSize="12sp" android:layout_marginBottom="8dp" />
+    <EditText android:id="@+id/sqlInput" android:layout_width="match_parent" android:layout_height="100dp"
+        android:hint="CREATE TABLE items (id INTEGER PRIMARY KEY, name TEXT);" android:gravity="top" android:inputType="textMultiLine"
+        android:fontFamily="monospace" android:textColor="@color/text_light" android:textColorHint="#777777" />
+    <Button android:id="@+id/btnRunSql" style="@style/ToolButton" android:text="Run SQL" android:layout_marginTop="8dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp">
+        <TextView android:id="@+id/sqlResultText" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="@color/text_light" android:fontFamily="monospace" android:textIsSelectable="true" />
+    </ScrollView>
+</LinearLayout>

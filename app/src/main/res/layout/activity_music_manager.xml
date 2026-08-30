@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <Button android:id="@+id/btnLoadMusic" style="@style/ToolButton" android:text="Load Music Library" />
+    <ListView android:id="@+id/musicList" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_marginTop="8dp" android:divider="#333333" android:dividerHeight="1dp" />
+    <Button android:id="@+id/btnStopMusic" style="@style/ToolButton" android:text="Stop Playback" android:layout_marginTop="8dp" />
+</LinearLayout>

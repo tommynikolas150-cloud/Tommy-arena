@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <EditText android:id="@+id/templateNameInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Template name" android:textColor="@color/text_light" android:textColorHint="#777777" />
+    <EditText android:id="@+id/templateSubjectInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Subject" android:textColor="@color/text_light" android:textColorHint="#777777" android:layout_marginTop="8dp" />
+    <EditText android:id="@+id/templateBodyInput" android:layout_width="match_parent" android:layout_height="100dp"
+        android:hint="Body" android:gravity="top" android:inputType="textMultiLine" android:textColor="@color/text_light" android:textColorHint="#777777" android:layout_marginTop="8dp" />
+    <Button android:id="@+id/btnSaveTemplate" style="@style/ToolButton" android:text="Save Template" android:layout_marginTop="8dp" />
+    <ListView android:id="@+id/templateList" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_marginTop="16dp" android:divider="#333333" android:dividerHeight="1dp" />
+</LinearLayout>

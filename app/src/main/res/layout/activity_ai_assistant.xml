@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <EditText android:id="@+id/apiKeyInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Groq API key (saved locally)" android:textColor="@color/text_light" android:textColorHint="#777777" />
+    <EditText android:id="@+id/aiPromptInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Ask something..." android:textColor="@color/text_light" android:textColorHint="#777777" android:layout_marginTop="8dp" />
+    <Button android:id="@+id/btnAskAi" style="@style/ToolButton" android:text="Ask" android:layout_marginTop="8dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp">
+        <TextView android:id="@+id/aiResponseText" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="@color/text_light" android:textIsSelectable="true" />
+    </ScrollView>
+</LinearLayout>

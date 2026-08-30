@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <EditText android:id="@+id/hostnameInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="example.com" android:textColor="@color/text_light" android:textColorHint="#777777" />
+    <Button android:id="@+id/btnLookup" style="@style/ToolButton" android:text="Lookup" android:layout_marginTop="12dp" />
+    <TextView android:id="@+id/dnsResultText" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="@color/text_light" android:textIsSelectable="true" android:layout_marginTop="20dp" />
+</LinearLayout>

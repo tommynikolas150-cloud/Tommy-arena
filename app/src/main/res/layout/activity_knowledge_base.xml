@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <EditText android:id="@+id/kbTitleInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Title / Question" android:textColor="@color/text_light" android:textColorHint="#777777" />
+    <EditText android:id="@+id/kbContentInput" android:layout_width="match_parent" android:layout_height="80dp"
+        android:hint="Answer / Notes" android:gravity="top" android:inputType="textMultiLine" android:textColor="@color/text_light" android:textColorHint="#777777" android:layout_marginTop="8dp" />
+    <Button android:id="@+id/btnAddKb" style="@style/ToolButton" android:text="Save Entry" android:layout_marginTop="8dp" />
+    <EditText android:id="@+id/kbSearchInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Search..." android:textColor="@color/text_light" android:textColorHint="#777777" android:layout_marginTop="12dp" />
+    <ListView android:id="@+id/kbList" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_marginTop="8dp" android:divider="#333333" android:dividerHeight="1dp" />
+</LinearLayout>

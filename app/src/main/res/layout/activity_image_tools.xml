@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background_dark" android:padding="16dp">
+
+    <Button android:id="@+id/btnPickImage" style="@style/ToolButton" android:text="Pick Image" />
+    <ImageView android:id="@+id/imagePreview" android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:layout_marginTop="12dp" android:scaleType="fitCenter" android:background="#1A1A1A" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="8dp">
+        <Button android:id="@+id/btnGrayscale" style="@style/ToolButton" android:layout_width="0dp" android:layout_weight="1" android:text="Grayscale" />
+        <Button android:id="@+id/btnRotate" style="@style/ToolButton" android:layout_width="0dp" android:layout_weight="1" android:text="Rotate 90°" />
+    </LinearLayout>
+    <Button android:id="@+id/btnSaveImage" style="@style/ToolButton" android:text="Save to Gallery" android:layout_marginTop="8dp" />
+</LinearLayout>
