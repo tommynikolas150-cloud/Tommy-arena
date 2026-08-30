@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tommy Arena"
+            android:textColor="@color/silver"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All 59 tools built."
+            android:textColor="#999999"
+            android:textSize="13sp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🛠️ UTILITIES" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnCalculator" style="@style/ToolButton" android:text="🧮  Calculator" />
+        <Button android:id="@+id/btnUnitConverter" style="@style/ToolButton" android:text="📐  Unit Converter" />
+        <Button android:id="@+id/btnStopwatch" style="@style/ToolButton" android:text="⏱️  Stopwatch &amp; Timer" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🔗 INTERNET &amp; SHARING" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnQrCode" style="@style/ToolButton" android:text="🔗  QR Code Generator/Scanner" />
+        <Button android:id="@+id/btnLinkManager" style="@style/ToolButton" android:text="🔗  Link Manager" />
+        <Button android:id="@+id/btnUrlShortener" style="@style/ToolButton" android:text="✂️  URL Shortener" />
+        <Button android:id="@+id/btnEmailAutomation" style="@style/ToolButton" android:text="📧  Email Automation" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📝 PRODUCTIVITY" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnNotes" style="@style/ToolButton" android:text="📝  Notes Manager" />
+        <Button android:id="@+id/btnTasks" style="@style/ToolButton" android:text="✅  Task Manager" />
+        <Button android:id="@+id/btnReminders" style="@style/ToolButton" android:text="⏰  Reminder Manager" />
+        <Button android:id="@+id/btnCalendar" style="@style/ToolButton" android:text="📅  Calendar Manager" />
+        <Button android:id="@+id/btnClipboard" style="@style/ToolButton" android:text="📋  Clipboard Manager" />
+        <Button android:id="@+id/btnTextUtils" style="@style/ToolButton" android:text="🔤  Text Utilities" />
+        <Button android:id="@+id/btnEbookLibrary" style="@style/ToolButton" android:text="📚  E-book Library" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📱 DEVICE" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnSystemMonitor" style="@style/ToolButton" android:text="📱  Phone System Monitor" />
+        <Button android:id="@+id/btnBatteryMonitor" style="@style/ToolButton" android:text="🔋  Battery Monitor" />
+        <Button android:id="@+id/btnInstalledApps" style="@style/ToolButton" android:text="📲  Installed Apps" />
+        <Button android:id="@+id/btnNotificationManager" style="@style/ToolButton" android:text="🔔  Notification Manager" />
+        <Button android:id="@+id/btnStorageCleaner" style="@style/ToolButton" android:text="🧹  Storage Cleaner" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🖥️ TERMUX &amp; SERVER" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnWebServer" style="@style/ToolButton" android:text="🖥️  Web Server &amp; Monitor" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📂 FILES &amp; STORAGE" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnFileManager" style="@style/ToolButton" android:text="📂  File Manager &amp; Search" />
+        <Button android:id="@+id/btnBackupManager" style="@style/ToolButton" android:text="💾  Backup Manager" />
+        <Button android:id="@+id/btnFileEncryption" style="@style/ToolButton" android:text="🔐  File Encryption" />
+        <Button android:id="@+id/btnFileCompressor" style="@style/ToolButton" android:text="🗜️  File Compressor" />
+        <Button android:id="@+id/btnDownloadManager" style="@style/ToolButton" android:text="⬇️  Download Manager" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🤖 AI" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnAiAssistant" style="@style/ToolButton" android:text="🤖  AI Assistant" />
+        <Button android:id="@+id/btnKnowledgeBase" style="@style/ToolButton" android:text="📖  AI Knowledge Base" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="💰 FINANCE &amp; BUSINESS" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnExpenseTracker" style="@style/ToolButton" android:text="💰  Expense Tracker" />
+        <Button android:id="@+id/btnFinanceManager" style="@style/ToolButton" android:text="📊  Finance Manager" />
+        <Button android:id="@+id/btnInventory" style="@style/ToolButton" android:text="📦  Inventory Manager" />
+        <Button android:id="@+id/btnInvoice" style="@style/ToolButton" android:text="🧾  Invoice Generator" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🧑‍💻 DEVELOPER" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnMarkdown" style="@style/ToolButton" android:text="📄  Markdown Editor" />
+        <Button android:id="@+id/btnApiTester" style="@style/ToolButton" android:text="🔌  API Tester" />
+        <Button android:id="@+id/btnCodeEditor" style="@style/ToolButton" android:text="💻  Code Editor" />
+        <Button android:id="@+id/btnSqliteManager" style="@style/ToolButton" android:text="🗄️  SQLite Manager" />
+        <Button android:id="@+id/btnApiKeyManager" style="@style/ToolButton" android:text="🔑  API Key Manager" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🌐 NETWORK" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnWebsiteChecker" style="@style/ToolButton" android:text="🌐  Website Checker" />
+        <Button android:id="@+id/btnSpeedTest" style="@style/ToolButton" android:text="📶  Internet Speed Tester" />
+        <Button android:id="@+id/btnNetworkMonitor" style="@style/ToolButton" android:text="📡  Network Monitor" />
+        <Button android:id="@+id/btnDnsLookup" style="@style/ToolButton" android:text="🔎  DNS Lookup" />
+        <Button android:id="@+id/btnPortScanner" style="@style/ToolButton" android:text="🚪  Port Scanner" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📄 DOCUMENTS &amp; MEDIA" android:textColor="@color/purple_primary" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" />
+        <Button android:id="@+id/btnDataAnalyzer" style="@style/ToolButton" android:text="📈  Data Analyzer" />
+        <Button android:id="@+id/btnPdfViewer" style="@style/ToolButton" android:text="📕  PDF Manager" />
+        <Button android:id="@+id/btnImageTools" style="@style/ToolButton" android:text="🖼️  Image Tools" />
+        <Button android:id="@+id/btnMusicManager" style="@style/ToolButton" android:text="🎵  Music Manager" />
+        <Button android:id="@+id/btnVideoManager" style="@style/ToolButton" android:text="🎬  Video Manager" />
+        <Button android:id="@+id/btnPhotoBackup" style="@style/ToolButton" android:text="🖼️  Photo Backup" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎉 All 59 tools complete!"
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
